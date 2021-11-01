@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Amine tech</title>
+<style>
+.grid-container {
+  border-radius: 25px;
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main main';
+  grid-gap: 10px;
+  font-family: Arial;
+  padding: 10px;
+  background-image: linear-gradient(black, gray);
+}
+.grid-container > div {
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 { grid-area: header; text-align: center; background-image: linear-gradient(gray, black); border-radius: 15px;}
+.item2 { grid-area: main; text-align: center; border-radius: 15px;}
+
+</style>
+</head>
+</html>
+<body>
+    <div class="grid-container">
+      <!--header-->
+        <div class="item1">
+            <h2><a href="index.html"></a><img src='imgs/scphl_logo_blank.png' width="250" height="250"></img></h2>
+            <h4><a href="index.html">SCP: Holy Law</a></h4>
+            <h6><a href="contact.html">• Contact</a></h6>
+        </div>
+        <!--main-->
+        <div class="item2">
+            <h3>Discord: <a href="https://discord.gg/mtwGDTqpXX">https://discord.gg/mtwGDTqpXX</a></h3>
+            <h3>Head developer: tech support#8460</h3>
+            <h3>Developer: Sewi#0272</h3>
+        </div>
+    </div>
+</body>
